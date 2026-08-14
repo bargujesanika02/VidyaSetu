@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: vidyasetu
+
+# Database connection will be added here in Phase 3, once we start working with
+# PostgreSQL and JPA. Left out intentionally for now - this app currently has
+# no database dependency at all, which is why it can start up on its own today.
